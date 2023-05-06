@@ -7,10 +7,10 @@ export default {
       colors: {
         // light color
         main_color_light: '#FFFFFF',
-        secondary_color_light: '#EDEDED',
+        secondary_color_light: '#FAFAFA',
         border_color_light: '#D4D4D4',
         text_color_light: '#141414',
-        btn_color_light: '#E2E2E2',
+        btn_color_light: '#EEEEEE',
         btn_hover_color_light: '#EAEAEA',
 
         // dark colors

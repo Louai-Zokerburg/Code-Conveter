@@ -1,12 +1,11 @@
 import React from 'react';
-import DropDown from '../components/DropDown';
-import { languages } from '../utils.js/languages';
+import { SideBar } from '../components';
 
 const Converter = () => {
   return (
-    <div className='p-8 bg-secondary_color_light dark:bg-secondary_color_dark h-screen'>
-      <DropDown languages={languages} />
-    </div>
+    <main className='w-full h-screen bg-main_color_ligth dark:bg-main_color_dark flex justify-center items-start'>
+      <SideBar />
+    </main>
   );
 };
 
